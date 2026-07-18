@@ -1,0 +1,18 @@
+{
+  "client": "Acme Dental",
+  "users": 25,
+  "years": 3,
+  "options": [
+    {"name": "Lean", "workstation": 24, "mobile": 5, "firewall": 1,
+     "switch": 2, "wap": 3, "network_base": 1, "agents": ["edr"],
+     "onsite_hours": 0, "value_factors": []},
+    {"name": "Recommended", "recommended": true, "workstation": 24, "mobile": 5,
+     "server": 1, "firewall": 1, "switch": 2, "wap": 3, "network_base": 1,
+     "agents": ["edr","ztna"], "onsite_hours": 2,
+     "value_factors": ["compliance","downtime_sensitive"]},
+    {"name": "Full Coverage", "workstation": 24, "mobile": 5, "server": 1,
+     "firewall": 1, "switch": 2, "wap": 3, "camera": 4, "network_base": 1,
+     "agents": ["edr","ztna","mdm_ent"], "onsite_hours": 4,
+     "value_factors": ["compliance","downtime_sensitive","security_pressure"]}
+  ]
+}

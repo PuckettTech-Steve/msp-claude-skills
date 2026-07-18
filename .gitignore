@@ -1,0 +1,10 @@
+# Credentials - never commit
+.env
+
+# Internal project docs - never ship (see PROJECT-NOTES.md white-labeling rules)
+PROJECT-NOTES.md
+CONVERSION-SPEC.md
+SYNC-STATE.md
+
+# OS junk
+.DS_Store

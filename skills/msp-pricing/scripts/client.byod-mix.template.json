@@ -1,0 +1,18 @@
+{
+  "client": "Field Services Co (BYOD-heavy example)",
+  "users": 74,
+  "years": 3,
+  "options": [
+    {"name": "Lean", "workstation": 25, "account_only": 49, "firewall": 1,
+     "switch": 3, "wap": 4, "network_base": 1, "agents": ["edr"],
+     "onsite_hours": 0, "value_factors": []},
+    {"name": "Recommended", "recommended": true, "workstation": 25, "account_only": 49,
+     "server": 1, "mobile": 25, "firewall": 1, "switch": 3, "wap": 4, "network_base": 1,
+     "agents": ["edr", "ztna"], "onsite_hours": 4,
+     "value_factors": ["security_pressure"]},
+    {"name": "Full Coverage", "workstation": 25, "account_only": 49, "server": 1,
+     "mobile": 25, "firewall": 1, "switch": 3, "wap": 4, "camera": 8, "network_base": 1,
+     "agents": ["edr", "ztna"], "onsite_hours": 8,
+     "value_factors": ["security_pressure", "downtime_sensitive"]}
+  ]
+}

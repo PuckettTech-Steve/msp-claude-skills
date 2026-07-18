@@ -1,0 +1,13 @@
+{
+  "name": "msp-ops-kit",
+  "metadata": {
+    "description": "Marketplace wrapper for the MSP Operations Kit skill suite."
+  },
+  "plugins": [
+    {
+      "name": "msp-ops-kit",
+      "source": ".",
+      "description": "MSP Operations Kit: all 13 msp skills in one plugin."
+    }
+  ]
+}
