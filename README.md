@@ -60,4 +60,6 @@ Do not undo these; they are what makes the suite hold together.
 
 ## License
 
-Free to use and customize for your own MSP, and pay what you want (see above). Do not resell the kit or repackage it as your own product. If you want to point another MSP at it, send them here.
+Copyright (c) 2026 RTFM IT Services LLC. Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+In plain terms: use and customize it freely for running your own MSP, with credit. Don't sell the kit or repackage it into a commercial product, and share any adapted versions under the same license. Using it internally to run your business (including the client work you charge for) is fine; the restriction is on selling the kit itself. If you want to point another MSP at it, send them here. See the LICENSE file for the legal text.
