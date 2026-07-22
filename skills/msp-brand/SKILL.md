@@ -229,6 +229,8 @@ would genuinely and naturally write one. This applies to all content, customer-f
 - Fear-based or pushy selling. Sell through empathy and trust.
 - Hype words and filler ("cutting-edge," "synergy," "world-class," "leverage").
 - Em dashes (see the punctuation rule above).
+- Overstated service-area claims: never claim statewide or wider coverage than you actually
+  serve. Name the area you truly cover ({{SERVICE_AREA}}) and keep marketing copy inside it.
 
 **Audience (describe your target client):** Write to your actual buyer. As a labeled example, one
 working MSP defines its audience as: *small to medium-sized businesses, owners and office managers

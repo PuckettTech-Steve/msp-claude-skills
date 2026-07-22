@@ -80,7 +80,7 @@ security monitoring, and licensing. Account-only is lighter and priced well belo
 support people who do not have a company computer without charging them like they do.
 
 **Recurring, per device (monthly):** server, mobile device, network base fee, firewall or router,
-switch, wireless access point, camera, special software.
+switch, wireless access point, camera, printer (business-class, networked only), special software.
 
 **Per-endpoint add-ons (load onto the devices that need them):** endpoint protection (EDR), ZTNA
 (secure access), MDM small-business or MDM enterprise tier (Mac management). These are real costs;

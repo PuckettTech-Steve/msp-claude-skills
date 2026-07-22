@@ -105,6 +105,12 @@ Four overlapping phases. Days are targets, not law; the sequence is the law.
 - Test a backup restore. "Backups are running" is not the same as "backups restore." If there
   are no working backups, that is an urgent finding: tell the client in plain terms and quote
   the fix as a project immediately.
+- **Printer inventory:** record every printer (make, model, connection type). Business-class
+  networked printers go on the Managed Printer line (msp-pricing). Flag consumer-grade,
+  inkjet, or USB-attached units as nonstandard: excluded from the monthly, best-effort hourly
+  only, with a written replacement recommendation (a ~$300 business laser costs less than
+  three nightmare tickets). Confirm vendor warranty status on covered printers so the liaison
+  commitment is deliverable.
 
 ### Phase 3: Stabilize and Harden (Days 8 to 20)
 

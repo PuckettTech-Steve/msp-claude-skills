@@ -58,6 +58,7 @@ technician), vendor pricing guides (server pricing). Figures are 2024 to 2026.
 | Mobile | 0.5 | Slightly high for an MDM-managed phone, but minor and protective. Kept. |
 | Firewall | 0.5 | Reasonable. Firmware, rule changes, and security monitoring justify it. |
 | Switch / AP / Camera | 0.1 | Reasonable. Monitor-and-forget devices. Kept. |
+| Printer | 0.3 | New. Business-class networked fleet only; the hardware gate keeps the nightmare population (consumer/inkjet/USB) out of the monthly, so load stays low. Most months zero-touch; occasional driver or scan-to-email work. Revisit with ticket data. |
 | Special software | 1.0 | Placeholder; depends entirely on the app. Adjust per client. |
 
 **Why keep workstation at 1.0 rather than drop to 0.5?** Because an early-stage shop without mature

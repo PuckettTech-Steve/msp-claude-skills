@@ -11,3 +11,6 @@ launch/
 
 # OS junk
 .DS_Store
+
+# Python cache from running pricing script
+__pycache__/

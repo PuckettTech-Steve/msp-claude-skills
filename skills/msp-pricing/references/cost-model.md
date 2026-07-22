@@ -57,6 +57,7 @@ section 3 and the standing decisions.
 | Switch | $0 | 0.1 | $4 | $10 |
 | Wireless access point | $0 | 0.1 | $4 | $10 |
 | Camera | $0 | 0.1 | $4 | $10 |
+| Printer (business-class, networked) | $0 | 0.3 | $12 | $40 |
 | Special software | $0 | 1.0 | $40 | $110 |
 
 A workstation line is a full user: a managed computer plus that person's support. An account-only line
@@ -162,6 +163,16 @@ a workstation, setting the server anchor at only $140 against a market norm of a
 higher-touch (patching with maintenance windows, backup verification, tighter monitoring), so 1.5 hours
 is the balanced estimate, putting loaded cost at $75 and the anchor at $210. Use 2.0 hours for a
 server-heavy or high-availability client. See `references/support-hours.md` for the benchmarks.
+
+**Managed Printer line (shipped example default).** Business-class networked printers only,
+0.3 hr/month, $12 loaded, $40 anchor, $30 floor. Scope is by delivery channel: the monthly
+covers everything remote-deliverable (connectivity, IP management, driver deployment, print
+queues/spooler, scan-to-email and scan-to-folder config, firmware updates) plus vendor
+liaison: you run warranty claims so the client never calls a printer vendor. Physical work
+(repairs, swaps, installs) rides the client's on-site allowance or break-fix on-site rates.
+No consumables, ever: no toner resale, no supplies management. Consumer-grade, inkjet, or
+USB-attached printers get no monthly line, best-effort hourly only, flagged at onboarding
+with a replacement recommendation under "you control the stack."
 
 **Anchors are rounded up to $10.** $50 x 2.703 = $135.14 rounds to $140; $75 x 2.703 = $202.70 rounds
 to $210. The small lines (switch, WAP, camera) are the exception noted above and hold at $10.

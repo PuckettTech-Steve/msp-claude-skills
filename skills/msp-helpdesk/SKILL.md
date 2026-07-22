@@ -84,6 +84,16 @@ First response means a human acknowledgment with a next step, not an autorespond
 - Non-P1 requests that arrive after hours get acknowledged the next business morning. Do not
   train clients that everything is an emergency by treating everything as one.
 
+## Printer Tickets
+
+Printer tickets: the desk resolves everything remote (drivers, queues, connectivity,
+scan-to-email/folder, firmware) for managed printers. Hardware failures (jams, fusers,
+dead units) are diagnosed remotely, then routed to the vendor warranty: you open and
+manage the claim; the desk does not repair hardware. Physical work on site uses the
+client's on-site allowance or bills at break-fix on-site rates. Consumables requests
+(toner, supplies) are politely declined, not a service you offer. Printers not on
+the managed line (consumer, inkjet, USB-attached) are best-effort at hourly rates.
+
 ---
 
 ## Security Incidents

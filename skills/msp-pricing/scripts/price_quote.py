@@ -63,13 +63,18 @@ ONSITE_COST  = round(FIELD_WAGE * BURDEN * ONSITE_UTIL + ONSITE_OH)   # ~ $80/hr
 UNITS = {
     "workstation": (10.00, 1.0), "account_only": (4.00, 0.4), "server": (15.00, 1.5),
     "mobile": (12.00, 0.5), "network_base": (0.00, 0.5), "firewall": (0.00, 0.5),
-    "switch": (0.00, 0.1), "wap": (0.00, 0.1), "camera": (0.00, 0.1), "special_sw": (0.00, 1.0),
+    "switch": (0.00, 0.1), "wap": (0.00, 0.1), "camera": (0.00, 0.1),
+    "printer": (0.00, 0.3), "special_sw": (0.00, 1.0),
 }
 # A workstation line is an "account + computer" user (managed machine plus that person's support).
 # account_only is a user with a managed account but no managed machine (BYOD, 1099 contractors):
 # identity provisioning, password/MFA, account security monitoring, licensing. Lighter than a
 # workstation because there is no machine to maintain. Endpoint agents do not apply to it.
 # Server raised from 1.0 to 1.5 hrs: servers are higher-touch. See references/support-hours.md.
+# printer is business-class NETWORKED printers only: remote work (connectivity, IP, drivers,
+# queues, scan-to-email/folder, firmware) plus vendor liaison. No consumables; physical work
+# rides on-site allowance/break-fix. Consumer/inkjet/USB units get no monthly line --
+# best-effort hourly only. $40 anchor, $30 floor. See references/cost-model.md.
 
 # Per endpoint agent COSTS (Agent Prices sheet). Load onto devices that use them.
 AGENTS = {"edr": 1.30, "ztna": 7.00, "mdm_sb": 5.00, "mdm_ent": 7.00}
