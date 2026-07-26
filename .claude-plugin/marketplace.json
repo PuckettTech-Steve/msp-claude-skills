@@ -1,8 +1,10 @@
 {
   "name": "msp-ops-kit",
-  "metadata": {
-    "description": "Marketplace wrapper for the MSP Operations Kit skill suite."
+  "owner": {
+    "name": "Puckett IT Group LLC",
+    "email": "steve@puckett.tech"
   },
+  "description": "MSP Operations Kit skill suite. Forked from RTFM IT Services LLC (https://github.com/RTFM-IT-Services-LLC/msp-claude-skills), CC BY-NC-SA 4.0.",
   "plugins": [
     {
       "name": "msp-ops-kit",
