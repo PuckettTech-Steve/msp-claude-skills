@@ -136,8 +136,8 @@ disagreements, and all five pricing notes are flipped.
 ## Phase 3: Setup Decisions sweep
 
 Go skill by skill in this order: msp-helpdesk, msp-maintenance, msp-client-comms,
-msp-onboarding, msp-offboarding, msp-qbr, msp-metrics, msp-sales, msp-website-setup, and last
-msp-legal (partially; see below).
+msp-onboarding, msp-offboarding, msp-qbr, msp-metrics, msp-sales, msp-marketing,
+msp-website-setup, and last msp-legal (partially; see below).
 
 For each skill, work its Setup Decisions one at a time: state the question, show the shipped
 example default, take the user's decision (sanity rule applies to any number), and write it into

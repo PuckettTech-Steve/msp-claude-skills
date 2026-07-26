@@ -8,8 +8,8 @@ description: >
   logo, colors, or voice: flyers, one-pagers, case studies, cold emails, sales scripts, proposals,
   decks, social posts, letterhead, email signatures, or web copy (content and voice only; site
   build and hosting is msp-website-setup). Always load this skill before
-  producing branded output, and apply it alongside content skills like msp-sales, msp-pricing,
-  docx, and pptx.
+  producing branded output, and apply it alongside content skills like msp-sales, msp-marketing,
+  msp-pricing, docx, and pptx.
 ---
 
 # MSP Brand Details

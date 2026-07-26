@@ -1,6 +1,6 @@
 # MSP Operations Kit
 
-A complete Claude skill suite for running a small managed IT services business (MSP). Thirteen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
+A complete Claude skill suite for running a small managed IT services business (MSP). Fourteen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
 
 Built and proven inside a working MSP, then white-labeled. The operational structure ships complete; the identity and the numbers are yours to fill in.
 
@@ -18,6 +18,7 @@ Foundation skills (the ones everything else defers to):
 
 - `msp-brand`: your identity, colors, voice, and signature. A fill-in template; this is where you make the kit yours.
 - `msp-sales`: outreach, call scripts, discovery, objection handling, pipeline, plus a 9-file reference library.
+- `msp-marketing`: content engine and distribution playbook. Resources articles, social posts, licensed marketing-pack rewrites, idea bank, content log, and the channels-and-tactics playbook.
 - `msp-pricing`: a pricing configurator with cost model references and a working quote script.
 - `msp-legal`: your document stack (MSA, Orders, SOW, DPA, waivers) and negotiation playbook.
 - `msp-website-setup`: a standard pipeline for client static websites with git-based dev/prod deployment.

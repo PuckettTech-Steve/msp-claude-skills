@@ -1,15 +1,17 @@
 ---
 name: msp-sales
 description: >
-  Use this skill whenever the user wants to create sales or marketing documents, content, or
-  procedures for their managed IT services (MSP) business. Triggers include: cold outreach
-  emails or sequences, sales call scripts or talk tracks, case studies or testimonials, sales
-  pipeline documents, follow-up templates, objection handling guides, discovery call frameworks,
-  marketing content or strategy, or any internal sales enablement content. Also trigger for
-  "write an email to a prospect", "create a sales script", "build a pipeline tracker", "draft a
-  case study", or any mention of winning new clients, following up with leads, or building sales
-  materials for an IT services business, even if the user doesn't say "MSP" explicitly. Apply
-  alongside msp-brand (identity, voice, visuals) and msp-pricing (any number a client could see).
+  Use this skill whenever the user wants to create sales documents, content, or procedures for
+  their managed IT services (MSP) business. Triggers include: cold outreach emails or sequences,
+  sales call scripts or talk tracks, case studies or testimonials, sales pipeline documents,
+  follow-up templates, objection handling guides, discovery call frameworks, prospect targeting,
+  the referral program, or any internal sales enablement content. Also trigger for "write an
+  email to a prospect", "create a sales script", "build a pipeline tracker", "draft a case
+  study", or any mention of winning new clients, following up with leads, or building sales
+  materials for an IT services business, even if the user doesn't say "MSP" explicitly.
+  Marketing content (blog/resources posts, social media, newsletters, article rewrites) and
+  marketing channels/tactics belong to msp-marketing. Apply alongside msp-brand (identity,
+  voice, visuals) and msp-pricing (any number a client could see).
 ---
 
 # MSP Sales Expert Skill
@@ -44,10 +46,17 @@ and getting moving rather than waiting for the perfect plan.
 
 ## How This Skill Divides Work With Its Siblings
 
-Three skills cover {{COMPANY_NAME}}'s go-to-market. Stay in your lane and hand off cleanly:
+Four skills cover {{COMPANY_NAME}}'s go-to-market. Stay in your lane and hand off cleanly:
 
 - **msp-sales (this skill):** what to say and to whom. Outreach, scripts, case studies,
-  pipeline, objections, discovery, marketing strategy, and the value conversation around a price.
+  pipeline, objections, discovery, the referral program, and the value conversation around a
+  price.
+- **msp-marketing:** content and distribution. Resources articles for the company website,
+  social posts, newsletters, rewriting outside material (licensed marketing packs and others),
+  the idea bank, the content calendar, and the channels-and-tactics playbook (local listing,
+  reviews, partnerships, workshops). If the user asks for marketing content or "where/how
+  should we market," hand off there. Case studies stay here; msp-marketing may repurpose
+  finished ones.
 - **msp-brand:** how everything looks and sounds. Company name rules, contact details, tagline,
   logos, colors, fonts, voice, and the punctuation rules (including the no-em-dash rule). Load it
   before producing anything branded. Never restate brand facts from memory; read them there.
@@ -131,10 +140,10 @@ reference files as needed:
 
 - **`references/package-price-profit.md`**: an MSP industry pricing methodology's value-based
   pricing mindset, pricing confidence, stack standardization, and US-applicable MSP marketing
-  strategies. Load for pricing
-  *conversations* and marketing strategy. Caution: its Good/Better/Best tiered-plan framework is
-  superseded by msp-pricing's per-client options model. Use it for the mindset, not the plan
-  structure.
+  strategies. Load for pricing *conversations*. Caution: its Good/Better/Best tiered-plan
+  framework is superseded by msp-pricing's per-client options model, and marketing channel
+  advice now lives in msp-marketing's channels-and-tactics playbook. Use it for the mindset,
+  not the plan structure.
 
 - **`references/feel-good-close.md`**: an empathy-driven MSP sales methodology: the
   Feel-Good Close philosophy, selling as customer service, the Trust Recession, empathy vs.
@@ -328,24 +337,21 @@ client, priced by the configurator.
 
 ---
 
-### 8. Marketing Content & Strategy
+### 8. Marketing Requests (Handoff)
 
-**When:** User asks how to find leads, what marketing to do, how to write a buyer's guide,
-what content to create, how to use a professional social network, or how to get referrals.
+**When:** User asks what marketing to do, where to market, what content to create, how to use
+a professional social network, or for any marketing content (posts, articles, newsletters,
+rewrites).
 
-**Approach:**
-- Load `references/package-price-profit.md` and `references/ideal-customer-profile.md`
-- Prioritize referral programs as the highest-ROI channel for a startup MSP
-- Recommend content that educates (buyer's guides, checklists, cybersecurity explainers)
-  rather than content that pitches
-- For niche marketing: advise starting general, then niching once patterns emerge
-- For social/digital: a professional social network and a local business listing profile are
-  the US priority channels
-- If marketing materials mention price, follow msp-pricing's term-ladder presentation rules
-- Always flag: marketing is a long game; consistency beats perfection
+**This moved to msp-marketing.** Load that skill: its `references/channels-and-tactics.md` is
+the channel playbook (referrals and reviews first, then partnerships and community, then the
+professional network and newsletter, paid last) and its format menu governs all content
+production.
 
-**Output format:** Plain text drafts for social posts, email newsletters, or social content;
-Word doc for a buyer's guide or full marketing plan.
+What stays here: the referral program mechanics (below), targeting and ICP advice (section 6),
+and niche advice (start general, niche once patterns emerge). When msp-marketing content needs
+prospect insight (pain points, buyer language), it draws on this skill's
+`references/ideal-customer-profile.md`.
 
 ---
 
